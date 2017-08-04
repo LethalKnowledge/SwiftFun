@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var buttonCount = 0
     
     @IBAction func changeText(_ sender: UIButton) {
-        buttonCount = buttonCount + 1
+        buttonCount += 1
         
         if buttonCount >= 10 {
             textLabel.text = "You hit it 10 times!"
